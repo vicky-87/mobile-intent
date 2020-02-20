@@ -21,8 +21,6 @@ public class ProfileBundleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_bundle);
 
-        Intent intent = new Intent(this, ProfileBundleActivity.class);
-
         // TODO: bind here
         usernameText = findViewById(R.id.text_username);
         nameText = findViewById(R.id.text_name);
